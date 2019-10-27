@@ -7,6 +7,10 @@ var mesh=new Array(num);
 init();
 animate();
 
+function fibonacci(){
+
+}
+
 function modelIncrement(){
 	for(var i=0;i<num-1;i++){
 		geo[i]=new THREE.BoxGeometry(0.05,0.05,0.02*(i+1));
